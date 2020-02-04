@@ -13,7 +13,7 @@ class Instructor
 
   def pass_student(student_name, test_name)
     BoatingTest.all.select do |tests|
-      test.stud_name == student_name
+      test.stud_name.name == student_name
     end
 
 end
