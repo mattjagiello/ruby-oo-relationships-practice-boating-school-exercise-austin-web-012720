@@ -4,7 +4,7 @@ class Student
 
   def initialize(name)
     @name = name
-    @@all << self
+    self.class.all << self
   end
 
 end
