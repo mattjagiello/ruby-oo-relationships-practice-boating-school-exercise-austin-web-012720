@@ -15,6 +15,6 @@ class Instructor
     BoatingTest.all.select do |tests|
       test.stud_name.name == student_name
     end
-    end
+  end
 
 end
