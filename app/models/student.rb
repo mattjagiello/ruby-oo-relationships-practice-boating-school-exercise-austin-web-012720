@@ -7,4 +7,8 @@ class Student
     self.class.all << self
   end
 
+  self.all
+    @@all
+  end
+
 end
