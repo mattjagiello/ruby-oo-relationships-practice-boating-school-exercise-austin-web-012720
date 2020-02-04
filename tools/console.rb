@@ -4,7 +4,7 @@ def reload
   load 'config/environment.rb'
 end
 
-#spongebob = Student.new("spongebob")
+spongebob = Student.new("spongebob")
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
