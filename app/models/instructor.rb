@@ -18,7 +18,7 @@ class Instructor
       end
       if tests.stud_name.name == student_name && tests.boat_test_name != test_name
         current_student = (tests.stud_name.name == student_name)
-        BoatingTest.new(student_name, test_name, "passed", self)
+        #BoatingTest.new(student_name, test_name, "passed", self)
       end
     end
   end
