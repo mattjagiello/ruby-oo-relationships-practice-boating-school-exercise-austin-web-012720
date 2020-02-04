@@ -12,7 +12,7 @@ class Student
   end
 
   def add_boating_test(st_name, bt_name, bt_status, inst_name)
-    BoatingTest.new(self, bt_name, bt_status, inst_name)
+    BoatingTest.new(st_name, bt_name, bt_status, inst_name)
   end
 
   def self.find_student(first_name)
