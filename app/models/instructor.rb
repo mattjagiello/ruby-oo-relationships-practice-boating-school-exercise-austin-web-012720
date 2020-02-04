@@ -12,9 +12,8 @@ class Instructor
   end
 
   def pass_student(student_name, test_name)
-    current_student = Student.all.select do |names|
-      names.name == student_name
-      binding.pry
+    boating_test = BoatingTest.all.select do |test|
+      test.student == student_name && test.test_name == boat_test_name
     end
   end
 
