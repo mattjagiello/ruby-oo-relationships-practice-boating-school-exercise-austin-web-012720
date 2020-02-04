@@ -13,7 +13,7 @@ class Instructor
 
   def pass_student(student_name, test_name)
     current_student = Student.all.select do |names|
-      name.name == student_name
+      names.name == student_name
     end
   end
 
