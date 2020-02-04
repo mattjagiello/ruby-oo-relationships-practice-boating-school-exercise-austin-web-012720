@@ -17,7 +17,8 @@ class Instructor
         tests.boat_test_status = "passed"
       end
       if tests.stud_name.name == student_name && tests.boat_test_name != test_name
-        current_student = tests.stud_name.name == student_name
+          current_student BoatingTest.all.collect do |tests|
+            tests.stud_name.name == student_name
         BoatingTest.new(current_student, test_name, "passed", self)
       end
     end
