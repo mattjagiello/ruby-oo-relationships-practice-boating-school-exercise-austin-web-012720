@@ -18,6 +18,7 @@ class Student
   def self.find_student(first_name)
     self.all.find do |roster|
       roster.name == first_name
+    end
   end
 
   def grade_percentage
