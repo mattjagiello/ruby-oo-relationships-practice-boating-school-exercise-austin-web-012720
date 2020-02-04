@@ -16,7 +16,7 @@ class Instructor
       if tests.stud_name.name == student_name && tests.boat_test_name == test_name
         tests.boat_test_status = "passed"
       elsif tests.stud_name.name == student_name && tests.boat_test_name != test_name
-        current_student.add_boating_test(student_name, test_name, "passed", self)
+        student_name.add_boating_test(student_name, test_name, "passed", self)
       end
     end
   end
