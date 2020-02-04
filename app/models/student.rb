@@ -11,4 +11,7 @@ class Student
     @@all
   end
 
+  def add_boating_test(st_name, bt_name, bt_status, inst_name)
+    BoatingTest.new()
+
 end
