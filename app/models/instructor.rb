@@ -12,10 +12,8 @@ class Instructor
   end
 
   def pass_student(student_name, test_name)
-    BoatingTest.all.select do |tests|
-      if tests.stud_name.name == student_name && tests.boat_test_name == test_name
-        tests.boat_test_status = "passed"
-      end
+    current_student = Student.all.select do |names|
+      name.name == student_name
     end
   end
 
