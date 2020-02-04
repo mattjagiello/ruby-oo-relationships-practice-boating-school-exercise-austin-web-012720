@@ -20,6 +20,8 @@ class Student
       roster.name == first_name
   end
 
-  def
+  def grade_percentage
+
+  end
 
 end
