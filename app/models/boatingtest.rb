@@ -1,5 +1,5 @@
 class BoatingTest
-  attr_accessor :stud_name, :boat_test_name, :boat_test_status
+  attr_accessor :stud_name, :boat_test_name, :boat_test_status, :boat_test_inst
   @@all = []
 
   def initialize(stud_name, boat_test_name, boat_test_status)
