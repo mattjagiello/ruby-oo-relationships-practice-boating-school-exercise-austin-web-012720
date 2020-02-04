@@ -8,4 +8,9 @@ class BoatingTest
     @boat_test_status = boat_test_status
     self.all.class << self
   end
+
+  def self.all
+    @@all
+  end
+
 end
