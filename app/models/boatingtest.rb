@@ -7,7 +7,7 @@ class BoatingTest
     @boat_test_name = boat_test_name
     @boat_test_status = boat_test_status
     @boat_test_inst = boat_test_inst
-    self.all.class << self
+    self.class.all << self
   end
 
   def self.all
