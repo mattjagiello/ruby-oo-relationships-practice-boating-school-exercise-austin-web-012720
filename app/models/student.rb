@@ -16,7 +16,7 @@ class Student
   end
 
   def self.find_student(first_name)
-    self.all.select do |roster|
+    Student.all.select do |roster|
       roster.name == first_name
     end
   end
