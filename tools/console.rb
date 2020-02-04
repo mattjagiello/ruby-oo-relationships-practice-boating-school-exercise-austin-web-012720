@@ -8,7 +8,7 @@ spongebob = Student.new("spongebob")
 
 mspuff = Instructor.new("ms puff")
 
-spongebob_bt = spongebob.add_boating_test(self, "test 1", "boat test taken")
+spongebob_bt = spongebob.add_boating_test(self, "test 1", "boat test taken", mspuff)
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
