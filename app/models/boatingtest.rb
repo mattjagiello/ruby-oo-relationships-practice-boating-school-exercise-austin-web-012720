@@ -7,5 +7,5 @@ class BoatingTest
     @boat_test_name = boat_test_name
     @boat_test_status = boat_test_status
     self.all.class << self
-
+  end
 end
