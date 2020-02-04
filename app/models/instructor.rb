@@ -11,4 +11,7 @@ class Instructor
     @@all << self
   end
 
+  def pass_student(student_name, test_name)
+
+
 end
